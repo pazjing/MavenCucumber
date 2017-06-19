@@ -4,14 +4,16 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 /**
- * Created by jingbai on 6/17/17.
+ * Created by jingbai on 6/18/17.
  */
+
 @RunWith(Cucumber.class)
 @Cucumber.Options (
         format ={"pretty","html:target/html/"},
         features = "src/test/resource",
         glue = { "com.cucumber.MavenCucumber"},
-        tags = { "@Application,@Server"}
+        tags = { "@zoo"}
 )
-public class RunnerTest {
+public class ZooRunnerTest {
+
 }

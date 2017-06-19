@@ -18,6 +18,7 @@ Feature: Check the page title
 #    Then I check page title is "News"
 #    And I close the browser
 
+  @web
   Scenario Outline: Check page title for News page
     Given I am on Qrious website
     When I navigate to the <Link>

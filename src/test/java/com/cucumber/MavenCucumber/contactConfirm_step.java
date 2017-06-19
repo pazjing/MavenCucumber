@@ -25,14 +25,14 @@ public class contactConfirm_step {
 
     @Before
     public void testSetUp() {
-        System.out.println("Before Method executed");
+        System.out.println("Before common Method executed");
         //driver = new ChromeDriver();
         //driver.manage().window().setSize(new Dimension(1224,968));
     }
 
     @After
     public void testShutDown() {
-        System.out.println("After Method executed");
+        System.out.println("After common Method executed");
         //driver.close();
     }
 

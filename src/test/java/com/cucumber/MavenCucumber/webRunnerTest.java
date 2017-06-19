@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         format ={"pretty","html:target/html/"},
         features = "src/test/resource",
         glue = { "com.cucumber.MavenCucumber"},
-        tags = { "@Application,@Server"}
+        tags = { "@web"}
 )
-public class RunnerTest {
+public class webRunnerTest {
 }
